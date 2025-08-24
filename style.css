@@ -1,0 +1,79 @@
+/* navbar */
+#top-navbar{
+    background-color: #0a0a0a !important;
+    padding: 0 8%;
+
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: rgb(255,255,255) !important;
+    font-size: 18px !important;
+    --bs-nav-link-hover-color: var(--bs-navbar-hover-colo);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex
+;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+
+
+#nav-btn{
+    width: 164px !important;   
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: rgba(0,0,0,0.9);
+    padding: 15px;
+    margin-top: 10px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  .btn {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .d-flex {
+    flex-direction: column;
+  }
+}
+ /* Change header background */
+  .accordion-button {
+    background-color: #a50000; /* red */
+    color: white;
+  }
+
+  /* Change header when collapsed */
+  .accordion-button.collapsed {
+    background-color: #444; /* dark gray */
+    color: white;
+  }
+
+  /* Change body background */
+  .accordion-body {
+    background-color: #f4e4b2; /* light beige */
+    color: #000;
+  }
+
+  /* Optional: remove default focus/hover shadow */
+  .accordion-button:focus {
+    box-shadow: none;
+  }
